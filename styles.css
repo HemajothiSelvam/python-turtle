@@ -1,0 +1,66 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 80px;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+/* Navbar */
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #f8c471;
+}
+
+/* Custom Sections */
+section {
+    padding: 60px 0;
+}
+
+/* Products Section */
+.img-fluid {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-grid img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+/* Contact Form */
+form .form-control {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
